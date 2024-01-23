@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .box-bottom{
     position: fixed;
     bottom: 0;
@@ -7,12 +10,34 @@
     height: 90px;
     background-color: #130c1c;
 }
-.box-bottom.box-bottom-left{
+.box-bottom .box-bottom-left{
     position: fixed;
     bottom: 0;
     left: 0;
     padding: 10px;
-    width: 240px;
-    height: 70px;
-    background-color: white;
+    width: 30%;
+    height: 90px;
+    
+}
+.box-bottom .box-bottom-center{
+    position: fixed;
+    bottom: 0;
+    left: 30%;
+    width: 40%;
+    height: 90px;
+    
+}
+.box-bottom .box-bottom-right{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    width: 30%;
+    height: 90px;
+   
+}
+.box-bottom .audio-control{
+    position: fixed;
+    bottom: 15px;
+    right: 40%;
 }
