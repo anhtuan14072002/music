@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <!-- end -->
     <link rel="stylesheet" href="main.css"/>
+    <link rel="stylesheet" href="/box-bottom/box_bottom.css">
 </head>
 <body>
     <header class="section header">
@@ -35,7 +36,7 @@
             </div>
             
             <div class="box-bottom">
-
+                <?php include("box-bottom/box-bottom.html")?>
             </div>
         </div>
     </main>
