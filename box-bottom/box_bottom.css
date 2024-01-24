@@ -31,10 +31,14 @@
     position: fixed;
     bottom: 0;
     right: 0;
-    padding: 10px;
     width: 30%;
     height: 90px;
-   
+    padding: 26px 0;
+}
+.box-bottom .box-bottom-right .material-symbols-outlined{
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
 }
 .box-bottom .audio-control{
     position: fixed;

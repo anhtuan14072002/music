@@ -11,16 +11,15 @@
     <!-- end -->
     <link rel="stylesheet" href="main.css"/>
     <link rel="stylesheet" href="/box-bottom/box_bottom.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
     <header class="section header">
         <div class="container">
-           
         </div>
     </header>
     <nav class="section nav">
         <div class="container">
-           
         </div>
     </nav>
     <main class="section main">
@@ -37,6 +36,7 @@
             
             <div class="box-bottom">
                 <?php include("box-bottom/box-bottom.html")?>
+                
             </div>
         </div>
     </main>
