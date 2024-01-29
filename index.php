@@ -38,7 +38,6 @@
             
             <div class="box-bottom">
                 <?php include("box-bottom/box-bottom.html")?>
-                
             </div>
         </div>
     </main>
