@@ -108,7 +108,7 @@
 .box-bottom .box-bottom-center .box-bottom-center-itemskipback{
     position: fixed;
     bottom: 40px;
-    right: 900px;
+    right: 850px;
     margin: 0 15px;
     border-radius: 5px;
     
@@ -119,7 +119,7 @@
 .box-bottom .box-bottom-center .box-bottom-center-itemplay{
     position: fixed;
     bottom: 40px;
-    right: 775px;
+    right: 750px;
     margin: 0 15px;
     border-radius: 5px;
 }
@@ -129,19 +129,25 @@
 .box-bottom .box-bottom-center #centerMusic{
     position: fixed;
     bottom: 15px;
-    right: 540px;
+    right: 510px;
     margin: 0 15px;
     height: 5px;
     width: 500px; 
 }
 /* left */
-.box-bottom .box-bottom-left .andree{
+.box-bottom .box-bottom-left .box-bottom-left-nameSinger{
+    position: fixed;
+    bottom: 3px;
+    left: 100px;
+    margin: 0 15px;
+    text-align: left;
+
+}
+.box-bottom .box-bottom-left img{
+    position: fixed;
+    bottom: 10px;
+    left: 5px;
     width: 70px;
     margin: 0 15px;
     border-radius: 5px;
-}
-.box-bottom .box-bottom-left .nameSinger{
-    position: fixed;
-    bottom: 5px;
-    right: 40px;
 }
