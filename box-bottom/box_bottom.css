@@ -35,6 +35,7 @@
     height: 90px;
     padding: 26px 0;
 }
+/* right */
 .box-bottom .box-bottom-right .box-bottom-itemlist{
     position: fixed;
     bottom: 30px;
@@ -93,54 +94,54 @@
 .box-bottom .box-bottom-right .box-bottom-itemmv:hover{
     background-color:#b0aeae;
 }
+/* center */
 .box-bottom .box-bottom-center .box-bottom-itemskipnext{
     position: fixed;
     bottom: 40px;
     right: 650px;
     margin: 0 15px;
+    border-radius: 5px;
 }
 .box-bottom .box-bottom-center .box-bottom-itemskipnext:hover{
     background-color:#767575;
 }
-.box-bottom .box-bottom-center .box-bottom-itemskipback{
+.box-bottom .box-bottom-center .box-bottom-center-itemskipback{
     position: fixed;
     bottom: 40px;
-    left: 650px;
+    right: 900px;
     margin: 0 15px;
+    border-radius: 5px;
+    
 }
-.box-bottom .box-bottom-center .box-bottom-itemskipback:hover{
+.box-bottom .box-bottom-center .box-bottom-center-itemskipback:hover{
     background-color: #767575;
 }
-.box-bottom .box-bottom-center .box-bottom-itemplay{
+.box-bottom .box-bottom-center .box-bottom-center-itemplay{
     position: fixed;
     bottom: 40px;
-    left: 717px;
+    right: 775px;
     margin: 0 15px;
+    border-radius: 5px;
 }
-.box-bottom .box-bottom-center #volumeMusic{
+.box-bottom .box-bottom-center .box-bottom-center-itemplay:hover{
+    background-color:#767575;
+}
+.box-bottom .box-bottom-center #centerMusic{
     position: fixed;
     bottom: 15px;
-    width: 500px;
+    right: 540px;
+    margin: 0 15px;
     height: 5px;
-    left: 480px;
+    width: 500px; 
 }
+/* left */
 .box-bottom .box-bottom-left .andree{
+    width: 70px;
+    margin: 0 15px;
+    border-radius: 5px;
+}
+.box-bottom .box-bottom-left .nameSinger{
     position: fixed;
-    bottom: 15px;
-    left: 25px;
-    border-radius: 15px;
-    width: 60px;
-    height: 60px;
-    
-}
-.box-bottom .box-bottom-left-name .nameSinger a:hover{
-    background-color: #307fe6;
-}
-.box-bottom .box-bottom-left-name{
-    margin: 5px 100px;
-    text-align: left;
-}
-.box-bottom .box-bottom-left-name .nameSinger{
-    font-size: 14px;
-    
+    bottom: 5px;
+    right: 40px;
 }
