@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/box-bottom/box_bottom.css">
     <link rel="stylesheet" href="/box-top/top.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    
 </head>
 <body>
     <header class="section header">

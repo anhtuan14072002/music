@@ -35,13 +35,111 @@
     height: 90px;
     padding: 26px 0;
 }
-.box-bottom .box-bottom-right .material-symbols-outlined{
+.box-bottom .box-bottom-right .box-bottom-itemlist{
     position: fixed;
     bottom: 30px;
     right: 20px;
+    margin: 0 15px;
+    border-left: 1px solid #767575;
 }
-.box-bottom .audio-control{
+.box-bottom .box-bottom-right .box-bottom-itemlist:hover{
+    background-color: #767575;
+}
+.box-bottom .box-bottom-right #volumeSlider{
+    position: fixed;
+    bottom: 44px;
+    right: 60px;
+    width: 100px;
+    height: 3px;
+    margin: 0 15px;
+}
+.box-bottom .box-bottom-right .box-bottom-itemvolume{
+    position: fixed;
+    bottom: 30px;
+    right: 170px;
+    margin: 0 15px;
+    border-radius: 5px;
+}
+.box-bottom .box-bottom-right .box-bottom-itemvolume:hover{
+    background-color: #767575;
+}
+.box-bottom .box-bottom-right .box-bottom-itemscreen{
+    position: fixed;
+    bottom: 30px;
+    right: 210px;
+    margin: 0 15px;
+    border-radius: 5px;
+}
+.box-bottom .box-bottom-right .box-bottom-itemscreen:hover{
+    background-color: #767575;
+}
+.box-bottom .box-bottom-right .box-bottom-itemmic{
+    position: fixed;
+    bottom: 30px;
+    right: 250px;
+    margin: 0 15px;
+    border-radius: 5px;
+}
+.box-bottom .box-bottom-right .box-bottom-itemmic:hover{
+    background-color: #767575;
+}
+.box-bottom .box-bottom-right .box-bottom-itemmv{
+    position: fixed;
+    bottom: 30px;
+    right: 290px;
+    margin: 0 15px;
+    border-radius: 5px;
+}
+.box-bottom .box-bottom-right .box-bottom-itemmv:hover{
+    background-color:#b0aeae;
+}
+.box-bottom .box-bottom-center .box-bottom-itemskipnext{
+    position: fixed;
+    bottom: 40px;
+    right: 650px;
+    margin: 0 15px;
+}
+.box-bottom .box-bottom-center .box-bottom-itemskipnext:hover{
+    background-color:#767575;
+}
+.box-bottom .box-bottom-center .box-bottom-itemskipback{
+    position: fixed;
+    bottom: 40px;
+    left: 650px;
+    margin: 0 15px;
+}
+.box-bottom .box-bottom-center .box-bottom-itemskipback:hover{
+    background-color: #767575;
+}
+.box-bottom .box-bottom-center .box-bottom-itemplay{
+    position: fixed;
+    bottom: 40px;
+    left: 717px;
+    margin: 0 15px;
+}
+.box-bottom .box-bottom-center #volumeMusic{
     position: fixed;
     bottom: 15px;
-    right: 40%;
+    width: 500px;
+    height: 5px;
+    left: 480px;
+}
+.box-bottom .box-bottom-left .andree{
+    position: fixed;
+    bottom: 15px;
+    left: 25px;
+    border-radius: 15px;
+    width: 60px;
+    height: 60px;
+}
+.box-bottom .box-bottom-left-name .nameSinger a:hover{
+    background-color: #307fe6;
+}
+.box-bottom .box-bottom-left-name{
+    margin: 5px 100px;
+    text-align: left;
+}
+.box-bottom .box-bottom-left-name .nameSinger{
+    font-size: 14px;
+    
 }
