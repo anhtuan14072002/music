@@ -1,13 +1,14 @@
 .box-top{
     position: fixed;
     top:0;
+    right: 0;
     width: 1200px;
     height: 70px;
     background-color: #1e1426;
 }
 
 .material-symbols-outlined {
-    position: absolute;
+   
     left: 20;
     top: 20;
     border-radius: 50%;
@@ -43,7 +44,7 @@
     border-radius: 25px;
     outline: none;
     font-size: 16px;
-    position: relative;
+    
   }
 
 .material-symbols-outlined {
