@@ -1,13 +1,16 @@
 .box-top{
     position: fixed;
     top:0;
-    right: 0;
     width: 1200px;
     height: 70px;
     background-color: #1e1426;
 }
 
 .material-symbols-outlined {
+    position: absolute;
+    left: 20;
+    top: 20;
+    border-radius: 50%;
     font-variation-settings:
     'FILL' 0,
     'wght' 400,
@@ -30,7 +33,7 @@
     width: 440px;
     height: 40px;
     margin-top: 15px;
-    float: left; 
+    float: left;
 }
 
 .top3{
@@ -43,4 +46,16 @@
     border-radius: 25px;
     outline: none;
     font-size: 16px;
+    position: relative;
   }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+
