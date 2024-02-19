@@ -11,7 +11,9 @@
     <!-- end -->
     <link rel="stylesheet" href="main.css"/>
     <link rel="stylesheet" href="/box-bottom/box_bottom.css">
+    <link rel="stylesheet" href="/box-top/top.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    
 </head>
 <body>
     <header class="section header">
@@ -26,7 +28,7 @@
     <main class="section main">
         <div class="container">
             <div class="box-top">
-                
+                <?php include("box-top/top.html")?>
             </div>
             <div class="box-left">
                 
@@ -37,7 +39,6 @@
             
             <div class="box-bottom">
                 <?php include("box-bottom/box-bottom.html")?>
-                
             </div>
         </div>
     </main>

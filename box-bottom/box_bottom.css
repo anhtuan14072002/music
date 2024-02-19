@@ -35,13 +35,137 @@
     height: 90px;
     padding: 26px 0;
 }
-.box-bottom .box-bottom-right .material-symbols-outlined{
+/* right */
+.box-bottom .box-bottom-right .box-bottom-itemlist{
     position: fixed;
     bottom: 30px;
     right: 20px;
+    margin: 0 15px;
+    border-left: 1px solid #767575;
 }
-.box-bottom .audio-control{
+.box-bottom-itemlist:hover{
+    background-color: #767575;
+}
+.box-bottom .box-bottom-right #volumeSlider{
+    position: fixed;
+    bottom: 44px;
+    right: 60px;
+    width: 100px;
+    height: 3px;
+    margin: 0 15px;
+}
+.box-bottom .box-bottom-right .box-bottom-itemvolume{
+    position: fixed;
+    bottom: 30px;
+    right: 170px;
+    margin: 0 15px;
+    border-radius: 5px;
+}
+.box-bottom-itemvolume:hover{
+    background-color: #767575;
+}
+.box-bottom .box-bottom-right .box-bottom-itemscreen{
+    position: fixed;
+    bottom: 30px;
+    right: 210px;
+    margin: 0 15px;
+    border-radius: 5px;
+}
+.box-bottom-itemscreen:hover{
+    background-color: #767575;
+}
+.box-bottom .box-bottom-right .box-bottom-itemmic{
+    position: fixed;
+    bottom: 30px;
+    right: 250px;
+    margin: 0 15px;
+    border-radius: 5px;
+}
+.box-bottom-itemmic:hover{
+    background-color: #767575;
+}
+.box-bottom .box-bottom-right .box-bottom-itemmv{
+    position: fixed;
+    bottom: 30px;
+    right: 290px;
+    margin: 0 15px;
+    border-radius: 5px;
+}
+.box-bottom-itemmv:hover{
+    background-color:#b0aeae;
+}
+/* center */
+.box-bottom .box-bottom-center .box-bottom-itemskipnext{
+    position: fixed;
+    bottom: 40px;
+    right: 650px;
+    margin: 0 15px;
+    border-radius: 5px;
+}
+.box-bottom-itemskipnext:hover{
+    background-color:#767575;
+}
+.box-bottom .box-bottom-center .box-bottom-center-itemskipback{
+    position: fixed;
+    bottom: 40px;
+    right: 850px;
+    margin: 0 15px;
+    border-radius: 5px;
+}
+.box-bottom-center-itemskipback:hover{
+    background-color: #767575;
+}
+.box-bottom .box-bottom-center .box-bottom-center-itemplay{
+    position: fixed;
+    bottom: 40px;
+    right: 750px;
+    margin: 0 15px;
+    border-radius: 5px;
+}
+.box-bottom-center-itemplay:hover{
+    background-color:#767575;
+}
+.box-bottom .box-bottom-center #centerMusic{
     position: fixed;
     bottom: 15px;
-    right: 40%;
+    right: 510px;
+    margin: 0 15px;
+    height: 5px;
+    width: 500px; 
+}
+.box-bottom .box-bottom-center .box-bottom-center-itemrepeat{
+    position: fixed;
+    bottom: 40px;
+    right: 550px;
+    margin: 0 15px;
+    border-radius: 5px;
+}
+.box-bottom-center-itemrepeat:hover{
+    background-color: #767575;
+}
+.box-bottom .box-bottom-center .box-bottom-center-itemrandom{
+    position: fixed;
+    bottom: 40px;
+    right: 950px;
+    margin: 0 15px;
+    border-radius: 5px;
+}
+.box-bottom-center-itemrandom:hover{
+    background-color: #767575;
+}
+/* left */
+.box-bottom .box-bottom-left .box-bottom-left-nameSinger{
+    position: fixed;
+    bottom: 3px;
+    left: 100px;
+    margin: 0 15px;
+    text-align: left;
+}
+.box-bottom .box-bottom-left img{
+    position: fixed;
+    bottom: 10px;
+    left: 5px;
+    width: 70px;
+    margin: 0 15px;
+    border-radius: 5px;
 }
