@@ -19,7 +19,7 @@
         <?php include("box_right/box_right.html")?>
         </div>
         <div class="box_center">
-            
+        <?php include("box_center/box_center.html")?>
         </div>
     </div>
 </body>
