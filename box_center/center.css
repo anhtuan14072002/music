@@ -1,5 +1,18 @@
-.center{
-    float: left;
-    background-color:red ;
-    width: 600px;
+.Nct{
+    display: flex;
+}
+
+.box_left{
+    width: 500px;
+    background-color: red;
+}
+
+.box_center{
+    width: 500px;
+    background-color: aqua;
+}
+
+.box_right{
+    width: 500px;
+    background-color: rebeccapurple;
 }
