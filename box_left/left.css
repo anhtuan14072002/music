@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.leftnct{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    border-right: 1px solid #f4f0f0;
+}
+a{
+    text-decoration: none;
+}
+.logonct button{
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+.logonct{
+    width: 200px;
+    height: 62px;
+}
+.logonct img{
+    height: 24px;
+    width: 48px;
+    margin: 19px;
+}
+.logonct button{
+    position: absolute;
+    margin-top: 15px;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid beige;
+    background-color: #fafafa;
+}
+.logonct button:hover{
+    color: #2f78e6;
+}
+.loginnct{
+    height: 55px;
+    width: 198px;
+    background-color: #fafafa;
+    padding: 17px 5px;
+}
+.loginmininct{  
+    margin: 10px;
+}
+.menunct {
+    width: 198px;
+    margin-top: 20px;
+}
+.searchnct .fas{
+    color: #26ee58;
+}
+.homenct .fas{
+    color: #2f78e6;
+}
+.compassnct .fas{
+    color: #f3f33b;
+}
+.listennct .fas{
+    color: #2f78e6;
+}
+.compassnct{
+    margin-bottom: 130px;
+}
+.compassnct li{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 5px;
+    padding: 5px;
+}
+.compassnct li:hover{
+    list-style: inside;
+    color: #2f78e6;
+}
+.compassnct{
+    margin-top:5px;
+    height: 33px;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+.listennct{
+    margin-top:5px;
+    height: 33px;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+.listennct li{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 5px;
+    padding: 5px;
+}
+.listennct li:hover{
+    list-style: inside;
+    color:#2f78e6;
+}
+.listennct{
+    margin-bottom: 100px;
+}
+.chartnct .fas{
+    color: #f53c3c;
+}
+.heartnct .fas{
+    color: #e92222;
+}
+.menunct button{
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+.searchnct{
+    height: 33px;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+.fas{
+    font-size: 20px;
+    margin: 0 5px;
+}
+.homenct{
+    margin-top:5px;
+    height: 33px;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+.chartnct{
+    margin-top:5px;
+    height: 33px;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+.heartnct{
+    margin-top:5px;
+    height: 33px;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+.supporthinct{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+
