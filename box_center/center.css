@@ -1,18 +1,21 @@
-.Nct{
-    display: flex;
+.box-center{
+    width: 965px;
+    margin: 0 auto;
 }
-
-.box_left{
-    width: 500px;
-    background-color: red;
+.carouselExample{
+    height: 350px;
+    max-width: 900px;
 }
-
-.box_center{
-    width: 500px;
-    background-color: aqua;
+.carousel-inner{
+    height: 350px;
+    width: 900px;
+    margin-left: 138px;
+    margin-top: 25px;
+    border-radius: 10px;
 }
-
-.box_right{
-    width: 500px;
-    background-color: rebeccapurple;
+.carousel-control-prev{
+    padding-left: 110px;
+}
+.carousel-control-next{
+    margin-right: 175px;
 }
