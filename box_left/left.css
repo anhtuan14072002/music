@@ -7,7 +7,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    width: 200px;
+    width: 211px;
     height: 100%;
     border-right: 1px solid #f4f0f0;
 }
@@ -41,7 +41,7 @@ a{
 }
 .loginnct{
     height: 55px;
-    width: 198px;
+    width: 210px;
     background-color: #fafafa;
     padding: 17px 5px;
 }
@@ -65,7 +65,7 @@ a{
     color: #2f78e6;
 }
 .compassnct{
-    margin-bottom: 130px;
+    margin-bottom: 145px;
 }
 .compassnct li{
     list-style: none;
@@ -88,6 +88,7 @@ a{
     height: 33px;
     padding-left: 10px;
     padding-top: 3px;
+    margin-bottom: 105px;
 }
 .listennct li{
     list-style: none;
@@ -98,9 +99,6 @@ a{
 .listennct li:hover{
     list-style: inside;
     color:#2f78e6;
-}
-.listennct{
-    margin-bottom: 100px;
 }
 .chartnct .fas{
     color: #f53c3c;
