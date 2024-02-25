@@ -2,20 +2,3 @@
     width: 965px;
     margin: 0 auto;
 }
-.carouselExample{
-    height: 350px;
-    max-width: 900px;
-}
-.carousel-inner{
-    height: 350px;
-    width: 900px;
-    margin-left: 138px;
-    margin-top: 25px;
-    border-radius: 10px;
-}
-.carousel-control-prev{
-    padding-left: 110px;
-}
-.carousel-control-next{
-    margin-right: 175px;
-}
