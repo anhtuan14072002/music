@@ -1,4 +1,6 @@
-.box-center{
-    width: 965px;
-    margin: 0 auto;
+.box-center {
+    width: 900px;
+    position: absolute;
+    top: 25px;
+    left: 228px;
 }
