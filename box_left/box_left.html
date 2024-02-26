@@ -5,11 +5,12 @@
     </div>
     <div class="loginnct">
         <span class="loginmininct">
-            <a href="#">Đăng nhập</a>
+            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal1">Đăng Nhập</a>
             |
-            <a href="#">Đăng kí</a>
+            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal2">Đăng Kí</a>
+            <i style="font-size: 13px;" class="fas fa-cog"></i>
         </span>
-        <i style="font-size: 13px;" class="fas fa-cog"></i>
+        
     </div>
     <div class="menunct">
         <div class="menuhover searchnct">
@@ -53,7 +54,7 @@
             <button><i class="fas fa-heart"></i></button>
             <span>Music 4U</span>
         </div>
-        <div class="menuhover supporthinct">
+        <div class="supporthinct">
             <img style="width: 80px;" src="/image/hi.png" alt="">
         </div>
     </div>
@@ -81,3 +82,57 @@
     }
     }
 </script>
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Đăng nhập</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Tên tài khoản</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Mật Khẩu</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Ghi nhớ</label>
+                </div>
+                <button style="width: 465px;" type="submit" class="btn btn-primary">Đăng nhập</button>
+              </form>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Đăng kí</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Tên Đăng Nhập</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Mật Khẩu</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Ghi nhớ</label>
+                </div>
+                <button style="width: 465px;" type="submit" class="btn btn-primary">Đăng kí</button>
+              </form>
+        </div>
+      </div>
+    </div>
+</div>
