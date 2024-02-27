@@ -42,7 +42,179 @@
             </div>
             </div>
             <div class="topiclistnct">
-            <h3>Danh sách bài hát</h3>
+            <h4>Danh sách bài hát</h4>
+            <br>
+            <div class="titleonct">
+                <div class="listtitlenct">
+                    <b>TIÊU ĐỀ</b>
+                </div>
+                <div class="musiciannct">
+                    <b>NGHỆ SĨ</b>
+                </div>
+                <div class="numberlisten">
+                    <b>LƯỢT NGHE</b>
+                </div>
+                <div class="timenct">
+                    <b>THỜI GIAN</b>
+                </div>
+            </div>
+            <div class="titleonct">
+                <div class="listtitlenct">
+                    Những Lời Hứa Bỏ Quên
+                    <i class="fas fa-crown"></i>
+                </div>
+                <div class="musiciannct">
+                    Vũ, Dear Jane
+                </div>
+                <div class="numberlisten">   
+                    <i class="fas fa-headphones-alt"></i>
+                    3.2M
+                </div>
+                <div class="timenct">
+                    03:56
+                </div>
+            </div>
+            <div class="titleonct">
+                <div class="listtitlenct">
+                    Mưa Tháng Sáu
+                </div>
+                <div class="musiciannct">
+                    Văn Mai Hương, GREY D, Trung Quân
+                </div>
+                <div class="numberlisten">
+                    <i class="fas fa-headphones-alt"></i>
+                    3.2M
+                </div>
+                <div class="timenct">
+                    04:17
+                </div>
+            </div>
+            <div class="titleonct">
+                <div class="listtitlenct">
+                    Rồi Em Sẽ Gặp Một Chàng Trai Khác
+                    <i class="fas fa-crown"></i>
+                </div>
+                <div class="musiciannct">
+                    The Masked Singer, Hippohappy
+                </div>
+                <div class="numberlisten">
+                    <i class="fas fa-headphones-alt"></i>
+                    3.2M
+                </div>
+                <div class="timenct">
+                    05:04
+                </div>
+            </div>
+            <div class="titleonct">
+                <div class="listtitlenct">
+                    Buồn Hay Vui
+                    <i class="fas fa-crown"></i>
+                </div>
+                <div class="musiciannct">
+                    VSOULRPT, MCK, Obito, Ronboogz
+                </div>
+                <div class="numberlisten">
+                    <i class="fas fa-headphones-alt"></i>
+                    2.1M
+                </div>
+                <div class="timenct">
+                    04:51
+                </div>
+            </div>
+            <div class="titleonct">
+                <div class="listtitlenct">
+                    Tò Te Tí
+                </div>
+                <div class="musiciannct">
+                    Wren Evans, Itsnk
+                </div>
+                <div class="numberlisten">       
+                    <i class="fas fa-headphones-alt"></i>
+                    58.6K
+                </div>
+                <div class="timenct">
+                    03:15
+                </div>
+            </div>
+            <div class="titleonct">
+                <div class="listtitlenct">
+                    Đôi Mình
+                </div>
+                <div class="musiciannct">
+                    Chuột Sấm Sét
+                </div>
+                <div class="numberlisten">
+                    <i class="fas fa-headphones-alt"></i>
+                    281.6K
+                </div>
+                <div class="timenct">
+                    02:57
+                </div>
+            </div>
+            <div class="titleonct">
+                <div class="listtitlenct">
+                    Anh Là Ngoại Lệ Của Em
+                    <i class="fas fa-crown"></i>
+                </div>
+                <div class="musiciannct">
+                    Phương Ly
+                </div>
+                <div class="numberlisten">
+                    <i class="fas fa-headphones-alt"></i>
+                    3.5M
+                </div>
+                <div class="timenct">
+                    03:08
+                </div>
+            </div>
+            <div class="titleonct">
+                <div class="listtitlenct">
+                    Ngày Mai Người Ta Lấy Chồng
+                    <i class="fas fa-crown"></i>
+                </div>
+                <div class="musiciannct">
+                    The Masked Singer, Voi Bản Đôn
+                </div>
+                <div class="numberlisten">
+                    <i class="fas fa-headphones-alt"></i>
+                    2.3M
+                </div>
+                <div class="timenct">
+                    05:17
+                </div>
+            </div>
+            <div class="titleonct">
+                <div class="listtitlenct">
+                    Em Xinh
+                    <i class="fas fa-crown"></i>
+                </div>
+                <div class="musiciannct">
+                    MONO, Onionn
+                </div>
+                <div class="numberlisten">
+                    <i class="fas fa-headphones-alt"></i>
+                    1.6M
+                </div>
+                <div class="timenct">
+                    03:03
+                </div>
+            </div>
+            <div class="titleonct">
+                <div class="listtitlenct">
+                    Nấu ăn cho em
+                    <i class="fas fa-crown"></i>
+                </div>
+                <div class="musiciannct">
+                    Đen, PiaLinh
+                </div>
+                <div class="numberlisten">
+                    <i class="fas fa-headphones-alt"></i>
+                    1.8M
+                </div>
+                <div class="timenct">
+                    04:01
+                </div>
+            </div>
             </div>
             
         </div>

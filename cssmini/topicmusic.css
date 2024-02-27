@@ -17,3 +17,44 @@
 .topicplaylist a{
     text-decoration: none;
 }
+.topiclistnct{
+    margin: 30px;
+    font-size: 13.5px;
+}
+.titleonct{
+    display: flex;
+    width: 892px;
+    height: 32px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.titleonct div{
+    margin-top: 5px;
+}
+.listtitlenct{
+    width: 354px;
+    margin-left: 5px;
+}
+.listtitlenct .fas{
+    float: right;
+    color: #d1d11f;
+    font-size: 13.5px;
+    margin-right: 10px;
+}
+.musiciannct{
+    width: 354px;
+}
+.numberlisten{
+    width: 80px;
+    margin-right: 20px;
+}
+.numberlisten .fas{
+    font-size: 10px;
+}
+.timenct{
+    width: 80px;
+    margin-right: 2px;
+    float: left;
+    text-align: center;
+}
