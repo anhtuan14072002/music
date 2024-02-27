@@ -5,25 +5,29 @@
     </div>
     <div class="loginnct">
         <span class="loginmininct">
-            <a href="#">Đăng nhập</a>
+            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal1">Đăng Nhập</a>
             |
-            <a href="#">Đăng kí</a>
+            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal2">Đăng Kí</a>
+            <i style="font-size: 13px;" class="fas fa-cog"></i>
         </span>
-        <i style="font-size: 13px;" class="fas fa-cog"></i>
+        
     </div>
     <div class="menunct">
-        <div class="searchnct">
+        <div class="menuhover searchnct">
             <button><i class="fas fa-search"></i></button>
             <span>Tìm Kiếm</span>
         </div>
-        <div class="homenct">
+        <div class="menuhover homenct">
             <button><i class="fas fa-home"></i></button>
             <span>Trang Chủ</span>
         </div>
         <div class="compassnct">
-            <button><i class="fas fa-compass"></i></button>
-            <span>Khám Phá</span>
-            <ul>
+            <ii class="menuhover">
+                <button><i class="fas fa-compass"></i></button>
+                <span>Khám Phá</span>
+                <button><i onclick="menu_compassnct(this)" class="fas fa-chevron-down"></i></button>
+            </ii>
+            <ul id="menucompassnct" class="compassnct-hide">
                 <li>Bài Hát</li>
                 <li>Playlist</li>
                 <li>Video</li>
@@ -31,24 +35,104 @@
             </ul>
         </div>
         <div class="listennct">
-            <button><i class="fas fa-headphones-alt"></i></button>
-            <span>Nghe Gì Hôm Nay</span>
-            <ul>
+            <ii class="menuhover">
+                <button><i class="fas fa-headphones-alt"></i></button>
+                <span>Nghe Gì Hôm Nay</span>
+                <button><i onclick="menu_listennct(this)" class="fas fa-chevron-down"></i></button>
+            </ii>
+            <ul id="menulistennct" class="listennct-hide">
                 <li>Chủ Đề</li>
                 <li>Tuyển Tập</li>
                 <li>Top 100</li>
             </ul>
         </div>
-        <div class="chartnct">
+        <div class="menuhover chartnct">
             <button><i class="fas fa-chart-bar"></i></button>
             <span>Bảng Xếp Hạng</span>
         </div>
-        <div class="heartnct">
+        <div class="menuhover heartnct">
             <button><i class="fas fa-heart"></i></button>
             <span>Music 4U</span>
         </div>
         <div class="supporthinct">
             <img style="width: 80px;" src="/image/hi.png" alt="">
         </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    function menu_compassnct(e){
+    var menu_compassnct = document.getElementById('menucompassnct');
+    if(menu_compassnct.classList.contains("compassnct-hide")){
+        menu_compassnct.classList.remove("compassnct-hide");
+        e.classList.toggle("fa-chevron-up");
+    }else{
+        menu_compassnct.classList.add("compassnct-hide");
+        e.classList.toggle("fa-chevron-up");
+    }
+    };
+    function menu_listennct(e){
+    var menu_listennct = document.getElementById('menulistennct');
+    if(menu_listennct.classList.contains("listennct-hide")){
+        menu_listennct.classList.remove("listennct-hide");
+        e.classList.toggle("fa-chevron-up");
+    }else{
+        menu_listennct.classList.add("listennct-hide");
+        e.classList.toggle("fa-chevron-up");
+    }
+    }
+</script>
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Đăng nhập</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Tên tài khoản</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Mật Khẩu</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Ghi nhớ</label>
+                </div>
+                <button style="width: 465px;" type="submit" class="btn btn-primary">Đăng nhập</button>
+              </form>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Đăng kí</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Tên Đăng Nhập</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Mật Khẩu</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Ghi nhớ</label>
+                </div>
+                <button style="width: 465px;" type="submit" class="btn btn-primary">Đăng kí</button>
+              </form>
+        </div>
+      </div>
     </div>
 </div>

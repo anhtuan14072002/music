@@ -3,11 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+span{
+    font-size: 13.5px;
+}
 .leftnct{
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
-    width: 211px;
+    width: 200px;
     height: 100%;
     border-right: 1px solid #f4f0f0;
 }
@@ -41,16 +44,33 @@ a{
 }
 .loginnct{
     height: 55px;
-    width: 210px;
+    width: 198px;
     background-color: #fafafa;
-    padding: 17px 5px;
 }
 .loginmininct{  
-    margin: 10px;
+    display: flex;
+    padding: 15px;
+}
+.loginmininct .fa-cog{
+    margin-top: 4px;
+}
+.loginmininct a:hover{
+    color: #2f78e6;
+}
+.loginmininct a{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.menuhover:hover{
+    border-left: 4px solid #88b3ec;
+    border-radius: 2px;
 }
 .menunct {
-    width: 198px;
+    width: 210px;
     margin-top: 20px;
+}
+.menunct div{
+    margin: 10px;
 }
 .searchnct .fas{
     color: #26ee58;
@@ -61,40 +81,41 @@ a{
 .compassnct .fas{
     color: #f3f33b;
 }
-.listennct .fas{
-    color: #2f78e6;
+.compassnct .fa-chevron-down{
+    font-size: 14px;
+    color: #ffebcd;
+    margin-left: 55px;
 }
-.compassnct{
-    margin-bottom: 145px;
+.compassnct-hide{
+    display: none;
 }
 .compassnct li{
     list-style: none;
-    margin-left: 50px;
+    margin-left: 20px;
     margin-top: 5px;
     padding: 5px;
+    font-size: 13.5px;
 }
 .compassnct li:hover{
     list-style: inside;
     color: #2f78e6;
 }
-.compassnct{
-    margin-top:5px;
-    height: 33px;
-    padding-left: 10px;
-    padding-top: 3px;
+.listennct-hide{
+    display: none;
 }
-.listennct{
-    margin-top:5px;
-    height: 33px;
-    padding-left: 10px;
-    padding-top: 3px;
-    margin-bottom: 105px;
+.listennct .fas{
+    color: #2f78e6;
+}
+.listennct .fa-chevron-down{
+    font-size: 14px;
+    color: #ffebcd;
 }
 .listennct li{
     list-style: none;
-    margin-left: 50px;
+    margin-left: 20px;
     margin-top: 5px;
     padding: 5px;
+    font-size: 13.5px;
 }
 .listennct li:hover{
     list-style: inside;
@@ -110,35 +131,12 @@ a{
     border: none;
     background-color: rgba(255, 255, 255, 0);
 }
-.searchnct{
-    height: 33px;
-    padding-left: 10px;
-    padding-top: 3px;
-}
 .fas{
     font-size: 20px;
     margin: 0 5px;
 }
-.homenct{
-    margin-top:5px;
-    height: 33px;
-    padding-left: 10px;
-    padding-top: 3px;
-}
-.chartnct{
-    margin-top:5px;
-    height: 33px;
-    padding-left: 10px;
-    padding-top: 3px;
-}
-.heartnct{
-    margin-top:5px;
-    height: 33px;
-    padding-left: 10px;
-    padding-top: 3px;
-}
 .supporthinct{
-    position: absolute;
+    position: fixed;
     bottom: 15px;
     left: 15px;
 }
