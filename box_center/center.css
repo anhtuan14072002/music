@@ -100,3 +100,34 @@
     color: #726b6b;
     padding-top: 15px;
 }
+.chude{
+    margin-top: 50px;
+}
+.chude i:hover{
+    color: #2f78e6;
+}
+.chude_img{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.chude_img img{
+    width: 190px;
+    height: 200px;
+}
+
+.top100{
+    margin-top: 50px;
+}
+.top100 i:hover{
+    color: #2f78e6;
+}
+.top100_img{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.top100_img img{
+    width: 190px;
+    height: 200px;
+}
