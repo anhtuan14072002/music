@@ -23,5 +23,8 @@
         <?php include("box_center/box_center.html")?>
         </div>
     </div>
+    <div class="section1">
+
+    </div>
 </body>
 </html>

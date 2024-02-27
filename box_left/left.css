@@ -14,7 +14,7 @@ span{
     height: 100%;
     border-right: 1px solid #f4f0f0;
 }
-a{
+.loginnct a{
     text-decoration: none;
 }
 .logonct button{
