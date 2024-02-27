@@ -113,6 +113,8 @@
 .chude_img img{
     width: 190px;
     height: 200px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 
 .top100{
@@ -129,4 +131,6 @@
 .top100_img img{
     width: 190px;
     height: 200px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
