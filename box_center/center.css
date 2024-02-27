@@ -1,18 +1,28 @@
-.Nct{
+.center{
+    margin-left: 103px;
+}
+.carousel-inner{
+    width: 960px;
+}
+.center_viet{
+    margin-top: 40px ;
+}
+.center_viet-top{
     display: flex;
+    margin-top: 20px;
 }
-
-.box_left{
-    width: 500px;
-    background-color: red;
+.center_viet-bottom{
+    display: flex;
+    margin-top: 20px;
 }
-
-.box_center{
-    width: 500px;
-    background-color: aqua;
+.box_viet img{
+    width: 210x;
+    height: 210px;
 }
-
-.box_right{
-    width: 500px;
-    background-color: rebeccapurple;
+.box_viet{
+    margin-left: 20px;
+}
+.box_viet-a{
+    padding-top: 10px;
+    color: aliceblue;
 }
