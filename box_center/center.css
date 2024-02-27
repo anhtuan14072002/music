@@ -131,3 +131,26 @@
     width: 190px;
     height: 200px;
 }
+
+.btn_left{
+    float: left;
+}
+
+.btn_right{
+    float: right;
+}
+
+.end{
+    width: 944px;
+    height: 38px;
+    margin-top: 50px;
+    border-radius: 6px;
+    border: 1px solid #726b6b;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-group button{
+    color: #1e1e1e;
+    background-color: #ffffff;
+    border: none;
+}
