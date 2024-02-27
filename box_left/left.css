@@ -10,7 +10,7 @@ span{
     position: fixed;
     left: 0;
     top: 0;
-    width: 211px;
+    width: 200px;
     height: 100%;
     border-right: 1px solid #f4f0f0;
 }
@@ -44,7 +44,7 @@ a{
 }
 .loginnct{
     height: 55px;
-    width: 210px;
+    width: 198px;
     background-color: #fafafa;
 }
 .loginmininct{  

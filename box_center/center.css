@@ -1,6 +1,11 @@
-.box-center {
+.centernct {
     width: 900px;
     position: absolute;
     top: 25px;
-    left: 228px;
+    left: 200px;
+}
+.topic {
+    width: 900px;
+    position: absolute;
+    left: 200px;
 }
