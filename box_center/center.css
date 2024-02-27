@@ -1,10 +1,15 @@
 .centernct{
     width: 940px;
     position: absolute;
+    top: 25px;
     left: 200px;
 }
+
 .carousel-inner{
-    width: 960px;
+    width: 944px;
+}
+.carousel-inner img{
+    width: 944px;
 }
 .center_viet{
     margin-top: 40px ;
@@ -25,6 +30,13 @@
     margin-left: 20px;
 }
 .box_viet-a{
+    padding-top: 15px;
+}
+.box_viet-a a{
     padding-top: 10px;
-    color: aliceblue;
+    text-decoration: none;
+    color: #1e1e1e;
+}
+.box_viet-a a:hover{
+    color: #2f78e6;
 }
