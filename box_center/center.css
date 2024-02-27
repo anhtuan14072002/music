@@ -1,7 +1,5 @@
-.centernct{
-    width: 944px;
-    position: absolute;
-    left: 200px;
+.center{
+    margin-left: 103px;
 }
 
 .carousel-inner{
@@ -39,13 +37,36 @@
 .box_viet-a a:hover{
     color: #2f78e6;
 }
-.video a{
-    text-decoration: none;
-    color: #1e1e1e;
-}.video a:hover{
-    color: #2f78e6
+.topicnct {
+    width: 940px;
+    position: absolute;
+    left: 200px;
 }
-.Video_hot{
+.topicnct img{
+    width: 943px;
+}
+p{
+    font-size: 14px;
+}
+.topicchild{
+    width: 910px;
+    margin: 15px;
+}
+.topicmenu{
+    width: 910px;
+    margin: 18px;
+}
+.topicmenuchild{
     display: flex;
-    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.topicmenuchild img{
+    width: 207px;
+    height: 208px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.imgtopic p{
+    margin-left: 10px;
 }
