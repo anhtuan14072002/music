@@ -1,5 +1,8 @@
-.center{
-    margin-left: 103px;
+.centernct{
+    width: 940px;
+    position: absolute;
+    top: 25px;
+    left: 200px;
 }
 .carousel-inner{
     width: 960px;
@@ -25,4 +28,37 @@
 .box_viet-a{
     padding-top: 10px;
     color: aliceblue;
+}
+.topicnct {
+    width: 940px;
+    position: absolute;
+    left: 200px;
+}
+.topicnct img{
+    width: 943px;
+}
+p{
+    font-size: 14px;
+}
+.topicchild{
+    width: 910px;
+    margin: 15px;
+}
+.topicmenu{
+    width: 910px;
+    margin: 18px;
+}
+.topicmenuchild{
+    display: flex;
+    flex-wrap: wrap;
+}
+.topicmenuchild img{
+    width: 207px;
+    height: 208px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.imgtopic p{
+    margin-left: 10px;
 }
