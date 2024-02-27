@@ -23,45 +23,46 @@
     <div class="topicnct">
         <img src="/image/mevabe.jpg" alt="">
         <div class="topicchild">
-          <p>Theo nhiều nghiên cứu khoa học đã chỉ ra rằng việc cho những bà mẹ đang mang thai và thai nhi nghe nhạc rất tốt cho trí não và sự phát triển của trẻ sau này.
-            <br> NhacCuaTui xin gửi đến những người phụ nữ sắp mang trong mình thiên chức làm mẹ những bản nhạc, những giai điệu du dương, thư giãn và thoải mái nhất.
-            <br> Hãy cùng NhacCuaTui chuẩn bị và chăm sóc tốt nhất cho những thiên thần bé nhỏ sắp chào đời các bạn nhé.
+          <p>
+          Ngày lễ tình yêu là ngày mà cả thế giới tôn vinh tình yêu đôi lứa, tình cảm giữa các đôi tình nhân và bạn bè khác phái. 
+          <br> Họ bày tỏ tình cảm của mình bằng cách gửi cho nhau thiệp Valentine, hoa hồng, chocolate và một số loại quà tặng đặc biệt khác.
+          <br> Hãy để NhacCuaTui.Com cùng tạo nên một ngày Valentine ý nghĩa trong sự thăng hoa của âm nhạc đưa cảm xúc của bạn lên cao.
           </p>
         </div>
         <div class="topicmenu">
-          <h2>Mẹ Và Bé</h2>
+          <h2>Valentine</h2>
           <div class="topicmenuchild">
             <div class="imgtopic">
-              <img src="/image/cuu.jpg" alt="">
-              <p><a href="#">Sleep Lullaby of Music Box</a></p>
+              <img src="/image/bemyvalentine.jpg" alt="">
+              <p><a href="#">Be My Valentine</a></p>
             </div>
             <div class="imgtopic">
-              <img src="/image/The Best Relaxing Nighttime.jpg" alt="">
-              <p><a href="#">The Best Baby Lullabies And Re</a></p>
+              <img src="/image/muayeu.jpg" alt="">
+              <p><a href="#">Mùa Yêu</a></p>
             </div>
             <div class="imgtopic">
-              <img src="/image/The Best Lullabies And Sooth.jpg" alt="">
-              <p><a href="#">The Best Lullabies And Soothi</a></p>
+              <img src="/image/cuyeudi.jpg" alt="">
+              <p><a href="#">Cứ Yêu Đi</a></p>
             </div>
             <div class="imgtopic">
-              <img src="/image/The Best Relaxing Nighttime1.jpg" alt="">
-              <p><a href="#">The Best Relaxing Nighttime</a></p>
+              <img src="/image/valentinerap.jpg" alt="">
+              <p><a href="#">Valentine Rap Love</a></p>
             </div>
             <div class="imgtopic">
-              <img src="/image/Soothing Lullabies and Relaxi.jpg" alt="">
-              <p><a href="#">Soothing Lullabies and Relaxi</a></p>
+              <img src="/image/loveat.jpg" alt="">
+              <p><a href="#">Love At First Sight</a></p>
             </div>
             <div class="imgtopic">
-              <img src="/image/Soothing Nighttime Music Fo.jpg" alt="">
-              <p><a href="#">The Best Lullabies And Sooth</a></p>
+              <img src="/image/kpopsong.jpg" alt="">
+              <p><a href="#">K-Pop Love Song</a></p>
             </div>
             <div class="imgtopic">
-              <img src="/image/Bedtime Lullabies and Calm.jpg" alt="">
-              <p><a href="#">Soothing Nighttime Music Fo</a></p>
+              <img src="/image/ngayle14.jpg" alt="">
+              <p><a href="#">Ngày Tình Nhân</a></p>
             </div>
             <div class="imgtopic">
-              <img src="/image/Bedtime Lullabies and Calmi.jpg" alt="">
-              <p><a href="#">Bedtime Lullabies and Calmi</a></p>
+              <img src="/image/cãmuckhiyeu.jpg" alt="">
+              <p><a href="#">Cảm Xúc Khi Yêu</a></p>
             </div>
           </div>
         </div>
