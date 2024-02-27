@@ -1,7 +1,12 @@
+.centernct {
+    width: 940px;
+    position: absolute;
+    top: 25px;
+    left: 200px;
+}
 .center{
     margin-left: 103px;
 }
-
 .carousel-inner{
     width: 944px;
 }
