@@ -116,7 +116,10 @@
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
-
+.chude_img img:hover{
+    transform: scale(1.1);
+    transform: all 300ms;
+}
 .top100{
     margin-top: 50px;
 }
@@ -134,7 +137,10 @@
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
-
+.top100_img img:hover{
+    transform: scale(1.1);
+    transform: all 300ms;
+}
 .btn_left{
     float: left;
 }
