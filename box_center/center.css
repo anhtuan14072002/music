@@ -1,12 +1,9 @@
-.centernct {
-    width: 940px;
+.centernct{
+    width: 944px;
     position: absolute;
-    top: 25px;
     left: 200px;
 }
-.center{
-    margin-left: 103px;
-}
+
 .carousel-inner{
     width: 944px;
 }
@@ -42,8 +39,13 @@
 .box_viet-a a:hover{
     color: #2f78e6;
 }
-.topicnct {
-    width: 940px;
-    position: absolute;
-    left: 200px;
+.video a{
+    text-decoration: none;
+    color: #1e1e1e;
+}.video a:hover{
+    color: #2f78e6
+}
+.Video_hot{
+    display: flex;
+    justify-content:space-evenly;
 }
