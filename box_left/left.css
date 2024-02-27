@@ -69,6 +69,10 @@ span{
     width: 210px;
     margin-top: 20px;
 }
+.menunct a{
+    text-decoration: none;
+    color: black;
+}
 .menunct div{
     margin: 10px;
 }
