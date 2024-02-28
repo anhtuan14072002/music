@@ -1,7 +1,7 @@
 .navselectionnct{
     display: flex;
     height: 66px;
-    width: 960px;
+    width: 945px;
     padding-top: 40px;
     padding-left: 230px;
     border-bottom: 1px solid  #f4f0f0;
@@ -17,7 +17,7 @@
     display: flex;
     margin-top: 20px;
     height: 95px;
-    width: 960px;
+    width: 945px;
     background-color: rgba(0,0,0,0.7);
     color: #fafafa;
 }
