@@ -23,13 +23,13 @@
 .box_viet img{
     width: 210x;
     height: 210px;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 .box_viet{
     margin-left: 20px;
 }
-.box_viet-a{
-    padding-top: 15px;
-}
+
 .box_viet-a a{
     padding-top: 10px;
     text-decoration: none;
@@ -37,6 +37,10 @@
 }
 .box_viet-a a:hover{
     color: #2f78e6;
+}
+.box_viet img:hover{
+    transform: scale(1.1);
+    transform: all 300ms;
 }
 .video a{
     text-decoration: none;

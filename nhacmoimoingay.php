@@ -38,7 +38,11 @@
                 <br>
                 Tags :
                 <button type="button" class="btn btn-secondary">Nhạc Trẻ</button> 
+                <button type="button" class="btn btn-secondary">Nhạc Hoa</button>
                 <button type="button" class="btn btn-secondary">Cafe</button>
+                <button type="button" class="btn btn-secondary">Top 100</button>
+                <button type="button" class="btn btn-secondary">R&B/Hip Hop/Rap</button>
+                <button type="button" class="btn btn-secondary">POP</button>
             </div>
             </div>
             <div class="topiclistnct">
