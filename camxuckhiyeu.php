@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hit Quốc Dân</title>
+    <title>Cảm Xúc Khi Yêu</title>
     <script src="https://kit.fontawesome.com/50317932e7.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -22,18 +22,18 @@
     <div class="centernct">
         <div class="topictop">
             <div class="topicmusic">
-                <img src="/image/hitquocdan.jpg" alt="">
+                <img src="/image/caxuc.png" alt="">
             </div>
             <div class="topicplaylist">
-                Playlist : <b>Hit Việt Quốc Dân</b>
+                Playlist : <b>Cảm Xúc Khi Yêu</b>
                 <br>
-                <img src="/image/VA.png" alt="">    <span>V.A</span>
+                <img src="/image/caxuc.png" alt="">    <span>V.A</span>
                 <br>
                 <br>
                 <span>15/12/2022</span>
                 <br>
                 <br>
-                <span>Những bản hit Việt được người nghe thuộc nằm lòng!</span>
+                <span>Cảm Xúc Khi Yêu</span>
                 <br>
                 <br>
                 Tags :
