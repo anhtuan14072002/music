@@ -7,11 +7,13 @@
     border-bottom: 1px solid  #f4f0f0;
 }
 .navselectionnct a{
+    color: black;
     text-decoration: none;
     margin: 35px;
 }
 .navselectionnct div:hover{
     border-bottom: 3px solid #3a8bf6;
+    transform: all 300ms;
 }
 .navtop100{
     display: flex;
