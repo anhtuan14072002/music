@@ -144,4 +144,9 @@ span{
     bottom: 15px;
     left: 15px;
 }
-
+@media (max-width: 900px) {
+    .leftnct{
+        width: 100px;
+        height: 930px;
+    }
+}

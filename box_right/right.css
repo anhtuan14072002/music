@@ -102,3 +102,9 @@
     background-color: #e2dfdb;
     border-radius: 5px;
 }
+@media (max-width: 1200px) {
+    .box_right{
+        display: none;
+        visibility: hidden;
+    }
+}
