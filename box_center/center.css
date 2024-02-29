@@ -163,14 +163,19 @@
 .btn_right{
     float: right;
 }
-
-.end{
-    width: 944px;
+.endnct{
+    width: 945px;
     height: 270px;
     margin-top: 50px;
-    border-radius: 6px;
-    border: 1px solid #726b6b;
-
+    border-top: 1px solid #f4f0f0;
+    font-size: 13.5px;
+}
+.end{
+    display: flex;
+    justify-content: space-around;
+}
+.btn-group  {
+    border-bottom: 1px solid #f4f0f0;
 }
 .btn-group button{
     color: #1e1e1e;
@@ -180,4 +185,27 @@
 .btn-primary{
     height: 38px;
 }
-
+.topicend{
+    display: flex;
+    margin: 25px;
+}
+.demotopic{
+    padding-left: 25px;
+}
+.detailend{
+    margin-left: 25px;
+}
+.endofend{
+    width: 946px;
+    height: 50px;
+    display: flex;
+    background-color: #f4f0f0;
+    margin-top: 50px;
+}
+.endofend div{
+    margin-top: 15px;
+    display: flex;
+}
+.endofend .fas{
+    margin: 0 25px;
+}
