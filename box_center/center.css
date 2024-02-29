@@ -23,14 +23,6 @@
 .box_viet img{
     width: 210x;
     height: 210px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
-.top-left{
-    margin-left: 15px;
-}
-.titlevideo{
-    margin-left: 15px;
 }
 .box_viet{
     margin-left: 20px;
@@ -46,10 +38,6 @@
 .box_viet-a a:hover{
     color: #2f78e6;
 }
-.box_viet img:hover{
-    transform: scale(1.1);
-    transform: all 300ms;
-}
 .video a{
     text-decoration: none;
     color: #1e1e1e;
@@ -64,7 +52,6 @@
     display: flex;
     justify-content:space-evenly;
     margin-top: 30px;
-    margin-bottom: 20px;
 }
 .sing_img{
     width: 70px;
@@ -79,18 +66,16 @@
 
 .baihat{
     width: 944px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 10px;
+    display: inline;
 }
+
+
 .sing{
     display: flex;
-    margin-left: 22px;
     width: 440px;
     height: 70px;
     margin-top: 10px;
-    background-color: #f6f5f5; 
-    border-radius: 5px;
+    background-color: #dfd0d0; 
 }
 .sing_name{
     width: 270px;
@@ -128,13 +113,8 @@
 .chude_img img{
     width: 190px;
     height: 200px;
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
 }
-.chude_img img:hover{
-    transform: scale(1.1);
-    transform: all 300ms;
-}
+
 .top100{
     margin-top: 50px;
 }
@@ -149,13 +129,8 @@
 .top100_img img{
     width: 190px;
     height: 200px;
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
 }
-.top100_img img:hover{
-    transform: scale(1.1);
-    transform: all 300ms;
-}
+
 .btn_left{
     float: left;
 }
@@ -170,6 +145,7 @@
     margin-top: 50px;
     border-radius: 6px;
     border: 1px solid #726b6b;
+    display: flex;
 
 }
 .btn-group button{
